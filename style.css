@@ -1,5 +1,5 @@
 body{
-   background-image: url("/images/cafecaros.jpeg");
+   background-image: url("/images/photo-1470324161839-ce2bb6fa6bc3.jpeg");
    background-position:center;
    background-size: cover;
    background-repeat:no-repeat;
@@ -17,7 +17,7 @@ img{
     box-sizing: border-box;
 }
 nav{
-    background: #c4c40c;
+    background: hsl(32, 59%, 64%);
     height: 80px;
     width: 100%;
 }
@@ -107,22 +107,20 @@ section{
     background-size: cover;
     height:calc(100vh-80px);
 }
-#resp-table {
-    width: 50%;
-    display: table;
-}
-#resp-table-body{
-    display: table-row-group;
-}
-.resp-table-row{
-    display: table-row;
-}
-.table-body-cell{
-    display: table-cell;
-    border: 1px solid #dddddd;
-    padding: 10px;
-    line-height: 1.42857143;
-    vertical-align: top;
-    background-color:rgb(185, 192, 185);
+
+P{
+    color: black;
+    font-size: 30px;
+    font-family: "Franklin Gothic Medium";
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
 }
 
+P{
+    display: block;
+    margin-block-start: 3em;
+    margin-block-end: 1em;
+    margin-inline-start: 6px;
+    margin-inline-end: 0px ;
+}

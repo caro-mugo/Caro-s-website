@@ -1,0 +1,10 @@
+body{
+    background-color: #f1dabf;
+}
+h1{
+    text-align: center;
+}
+.pics{
+    position: relative;
+    left:3px;
+}
